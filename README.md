@@ -4,9 +4,9 @@ engineer
 Powerful plugin system for writing large and extensible NodeJS applications. Engineer plugins are compatible with Architect plugins. Using Engineer, you set up a simple configuration and tell Engineer which plugins you want to load. Each plugin registers itself with Engineer, so other plugins can use its functions. Plugins can be maintained as NPM packages so they can be dropped in to other Engineer apps.
 
 
-### Create a engineer application and load plugins
+### Create an engineer application and load plugins
 
-```
+```javascript
 var engineer = require("engineer");
 
 var app = new engineer.Application({
@@ -30,7 +30,7 @@ app.load([
 
 An Application object can emit different object (Inherits from EventEmitter):
 
-```
+```javascript
 // Error:
 app.on("error", function(err) {
     console.error("Error in the application:");
@@ -47,7 +47,7 @@ app.on("service", function(name, service) {}):
 
 ### Plugin interface
 
-```
+```javascript
 // auth.js
 
 /* All plugins must export this public signature.
