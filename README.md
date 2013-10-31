@@ -34,7 +34,7 @@ An Application object can emit different object (Inherits from EventEmitter):
 // Error:
 app.on("error", function(err) {
     console.error("Error in the application:");
-    console.error(err, err.stack);
+    console.error(err.stack);
 });
 
 // Plugin loaded
