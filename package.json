@@ -1,0 +1,27 @@
+{
+    "name": "engineer",
+    "description": "Powerful plugin system for writing large and extensible NodeJS applications",
+    "version": "0.0.1",
+    "author": "FriendCode <contact@friendco.de>",
+    "contributors": [
+        {
+            "name": "Samy Pesse",
+            "email": "samypesse@gmail.com"
+        }
+    ],
+    "main": "engineer.js",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/FriendCode/engineer.git"
+    },
+    "dependencies": {
+        "q": "0.9.6",
+        "underscore": "1.4.4"
+    },
+    "licenses": [
+        {
+            "type": "Apache",
+            "url": "http://github.com/FriendCode/engineer/raw/master/LICENSE"
+        }
+    ]
+}
