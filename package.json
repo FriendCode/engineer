@@ -1,7 +1,7 @@
 {
     "name": "engineer",
     "description": "Powerful plugin system for writing large and extensible NodeJS applications",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "author": "FriendCode <contact@friendco.de>",
     "contributors": [
         {
