@@ -14,5 +14,7 @@ app.load([
     return app.load([
         './test3'
     ]);
+}).fail(function(err) {
+    console.log("Error with example",err);
 });
 
