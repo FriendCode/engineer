@@ -40,6 +40,9 @@ app.on("error", function(err) {
 // Plugin loaded
 app.on("plugin", function(plugin) {}):
 
+// Before plugin setup
+app.on("setup", function(plugin) {}):
+
 // Service ready
 app.on("service", function(name, service) {}):
 ```
